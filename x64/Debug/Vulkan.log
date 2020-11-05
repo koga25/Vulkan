@@ -1,0 +1,19 @@
+﻿  Functions.c
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(38,16): warning C4090: 'function': different 'const' qualifiers
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(56,17): warning C4090: 'function': different 'const' qualifiers
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(189,96): warning C4244: 'function': conversion from 'uint32_t' to 'float', possible loss of data
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(179,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(752,92): warning C4022: 'maxNumber': pointer mismatch for actual parameter 1
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(752,162): warning C4022: 'minNumber': pointer mismatch for actual parameter 1
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(752,182): warning C4022: 'minNumber': pointer mismatch for actual parameter 2
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(752,184): warning C4047: '=': 'uint32_t' differs in levels of indirection from 'void *'
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(753,94): warning C4022: 'maxNumber': pointer mismatch for actual parameter 1
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(753,165): warning C4022: 'minNumber': pointer mismatch for actual parameter 1
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(753,186): warning C4022: 'minNumber': pointer mismatch for actual parameter 2
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(753,188): warning C4047: '=': 'uint32_t' differs in levels of indirection from 'void *'
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(910,95): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(1004,17): warning C4090: 'function': different 'const' qualifiers
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(1308,52): warning C4047: '!=': 'errno_t' differs in levels of indirection from 'void *'
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(1393,36): warning C4047: 'function': 'const char *' differs in levels of indirection from 'char (*)[255]'
+C:\Users\xerather\source\repos\Vulkan\Vulkan\Functions.c(1393,36): warning C4024: 'glfwSetWindowTitle': different types for formal and actual parameter 2
+  Vulkan.vcxproj -> C:\Users\xerather\source\repos\Vulkan\x64\Debug\Vulkan.exe
