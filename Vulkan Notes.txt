@@ -28,3 +28,23 @@ Queue Families: this describes the set of queues with the same properties, for e
 
 Window surface: the function of the surface is to make a way to enable the Vulkan api (a platform agnostic api) to interact
 			    with the window.
+
+
+
+
+
+void myfunc1(void* pointer);
+void myfunc2(void* pointer);
+
+char buffer[20];
+sem_t mutex;
+
+int main()
+{
+	pthead_t thread1;
+	pthead_t thread2;
+
+	char* msg1 = "Hello";
+
+	sem_init(&mutex, )
+}

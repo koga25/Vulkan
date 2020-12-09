@@ -14,8 +14,10 @@ extern "C" {
 #include "../cglm.h"
 
 CGLM_EXPORT
-void
-glmc_translate_make(mat4 m, vec3 v);
+inline void
+glmc_translate_make(mat4 m, vec3 v) {
+    glm_translate_make(m, v);
+}
 
 CGLM_EXPORT
 void

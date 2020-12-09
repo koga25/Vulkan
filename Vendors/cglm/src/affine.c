@@ -10,12 +10,6 @@
 
 CGLM_EXPORT
 void
-glmc_translate_make(mat4 m, vec3 v) {
-  glm_translate_make(m, v);
-}
-
-CGLM_EXPORT
-void
 glmc_translate_to(mat4 m, vec3 v, mat4 dest) {
   glm_translate_to(m, v, dest);
 }
