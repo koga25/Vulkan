@@ -13,4 +13,4 @@ Picture of current version:
 <img src="Pictures/photo.jpg" alt="vulkan photo">
 
 Example of the GUI
-<img src="Pictures/photo.jpg" alt="vulkan photo">
+<img src="Pictures/Gui example.gif" alt="vulkan photo">
