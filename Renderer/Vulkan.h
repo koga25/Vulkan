@@ -1410,7 +1410,7 @@ void DrawMap(VkCommandBuffer commandBuffer, struct MapHelper* map)
 void DrawSquare(VkCommandBuffer commandBuffer)
 {
 	struct MeshPushConstants constants = { 0 };
-	constants.guiAnimationTime = sin(vulkanContext.frameNumber / 30.f);
+	constants.guiAnimationTime = fabs(sin(vulkanContext.frameNumber / 15.f));
 	vkCmdPushConstants(commandBuffer, vulkanContext.meshPipelineLayout, VK_SHADER_STAGE_VERTEX_BIT, 0, sizeof(struct MeshPushConstants), &constants);
 	vkCmdDraw(commandBuffer, vulkanContext.guiMesh.vertexSize, 1, 0, 0);
 }

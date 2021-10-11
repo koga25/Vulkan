@@ -19,5 +19,4 @@ void main()
 {
 	//we send the sprite offset in spriteCoordX and spriteCoordY
 	gl_Position = vec4(vPosition, 1.0f);
-	alpha = PushConstants.guiAnimationTime;
 }
